@@ -1,0 +1,15 @@
+.itemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #0d1b2a;
+}
+
+.itemList [data-id="contCards"] {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,44 @@
+.cardItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #1b263b;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  transform-origin: center;
+}
+.storeView p {
+  display: none;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.storeView:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #e0e1dd;
+  transition: transform 0.8s, box-shadow 0.5s;
+  position: sticky;
+  z-index: 1;
+}
+.storeView:hover p {
+  margin-left: 10px;
+  display: block;
+  font-size: small;
+}
+.storeView img {
+  width: 200px;
+  height: 300px;
+}
+
+.detailsView img {
+  height: 500px;
+  width: 380px;
+}
+.cartView p {
+  display: none;
+}
+.cartView img {
+  height: 230px;
+  width: 180px;
+}

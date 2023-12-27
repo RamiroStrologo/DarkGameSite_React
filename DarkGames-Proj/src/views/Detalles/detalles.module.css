@@ -1,0 +1,34 @@
+.detallesCont {
+  background-color: #0d1b2a;
+  display: grid;
+  grid-template-areas: "back aside section";
+  grid-template-columns: 0.1fr 0.3fr 1fr;
+  gap: 3rem;
+  margin: 3rem;
+}
+[data-id="buttonsDetail"] {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  grid-area: back;
+}
+[data-id="buttonsDetail"] > *:hover {
+  cursor: pointer;
+}
+.detallesCont aside {
+  display: flex;
+  justify-content: center;
+  background-color: #1b263b;
+  grid-area: aside;
+}
+.detallesCont section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1b263b;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-right: 3rem;
+  grid-area: section;
+}

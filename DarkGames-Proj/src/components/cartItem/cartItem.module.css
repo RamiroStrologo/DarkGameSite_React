@@ -1,0 +1,45 @@
+/* Estilos generales del Cart */
+.cartCont {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b263b;
+  margin: 1.5rem 10rem 1.5rem 10rem;
+}
+
+[data-id="divSpan"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+[data-id="divSpan"] span {
+  margin: 30px;
+  width: 15rem;
+  max-width: 15rem;
+}
+[data-id="titleSpan"] {
+  font-size: 1.8rem;
+  word-wrap: break-word;
+}
+/* Estilos del contador */
+[data-id="divButtonCant"] {
+  display: flex;
+}
+[data-id="divButtonCant"] button {
+  height: 40px;
+  width: 50px;
+  background-color: #778da9;
+  align-self: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+[data-id="divButtonCant"] span {
+  align-self: center;
+}
+/* Estilos de Delete y Save */
+[data-id="divButtonDelete"] {
+  justify-self: flex-end;
+}
+[data-id="divButtonDelete"] button {
+  height: 100%;
+  justify-self: flex-end;
+}
